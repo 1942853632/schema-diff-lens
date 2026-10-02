@@ -22,3 +22,5 @@ pnpm build
 ```
 
 Load `dist/` in `chrome://extensions` with Developer mode enabled.
+
+The repository also includes `SchemaDiffLens-v0.1.0.zip` as a ready-to-load package.
