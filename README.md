@@ -10,6 +10,10 @@ Schema Diff Lens is a local-only Chrome side-panel extension for reviewing JSON 
 - Markdown export for pull requests and release checklists
 - No API keys, network requests or uploaded schemas
 
+## Interview-ready engineering story
+
+The project separates a pure recursive compatibility analyzer from the Chrome adapter. Every finding has a stable rule ID, JSON path and severity, making the result reproducible in a release review instead of hiding the decision behind an opaque score.
+
 The MVP detects removed properties, newly required fields, narrowed enums, type changes, deprecations and additive properties. It returns a compatibility verdict and score that can be reproduced in CI later.
 
 ## Run
